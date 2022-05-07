@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #faf8f8;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  
+  border: 2px solid green;
+  margin: 0 auto;
+
+}
+
+
+/* home, details and contact page */
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: rgb(207, 205, 205);
+  /* border: 2px solid red; */
+}
+
+/* home page */
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid green;
+  /* background: rgb(221, 224, 226); */
+}
+
+
+/* script.js */
+
+.result {
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 240px;
+  background: white;
+  border: 2px solid blue;
+  border-radius: 1rem;
+}
+
+.card{
+  border: 2px solid green;
+  margin-top: 20px;
+}
+
+
+.error {
+  border: 1px solid darkred;
+  padding: 1rem;
+  color: darkred;
+  background: rgb(224, 216, 216);
+}
+
+
+
+.contact-form {
+  max-width: 500px;
+  margin: 30px auto;
+  border: 2px solid black;
+  background: rgb(177, 162, 162,0.5);
+  padding: 30px 20px;
+  padding: 30px 20px;
+}
+
+form {
+  max-width: 500px;
+  padding: 2em;
+  background: rgb(231, 226, 226);
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  margin-top: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: rgb(11, 133, 31);
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+  padding: 20px;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  
+}
+
+button:disabled {
+  background: rgb(203, 194, 194);
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid darkgreen;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* contact page */
+
+.input-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+.message {
+  border: 2px solid brown;
+  padding: 30px;
+  background: rgb(17, 17, 179);
+  color: white;
+  margin-bottom: 1rem;
+}
