@@ -12,18 +12,6 @@ async function getArtWork() {
 
     resultsContainer.innerHTML = "";
 
-    //     facts.forEach(function (art) {
-    //       resultsContainer.innerHTML += `<a href="details.html?id=${art.id}"class="result">
-    //       <h2>${art.title}</h2>
-    //       <Div class="card">
-    //       <p>Id: ${art.id} </p>
-    //       <p>Artist : ${art.artist_title} </p>
-    //       <p>Last_updated : ${art.last_updated} </p>
-    //       <p>Place of origin : ${art.place_of_origin} </p>
-    //       </Div>
-    // </a>`;
-    //     });
-
     for (let i = 0; i < facts.length; i++) {
       if (i === 12) {
         break;
@@ -44,7 +32,6 @@ async function getArtWork() {
        </a>`;
     }
   } catch (error) {
-    console.log(error);
     resultsContainer.innerHTML = errorMessage("An error has found.");
   }
 }

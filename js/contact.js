@@ -12,33 +12,7 @@ const emailError = document.querySelector("#email-error");
 const address = document.querySelector("#address");
 const addressError = document.querySelector("#address-error");
 
-// const message = document.querySelector("message");
 const button = document.querySelector("button");
-
-// function checkIfButtonIsDisabled() {
-//   if (
-//     checkLength(name.value, 0) &&
-//     checkLength(subject.value, 9) &&
-//     emailValidation(email.value) &&
-//     checkLength(address.value, 24)
-//   ) {
-//     button.disabled = false;
-//   } else {
-//     message.innerHTML = "";
-//     button.disabled = true;
-//   }
-// }
-
-// name.addEventListener("keyup", checkIfButtonIsDisabled);
-// subject.addEventListener("keyup", checkIfButtonIsDisabled);
-// email.addEventListener("keyup", checkIfButtonIsDisabled);
-// address.addEventListener("keyup", checkIfButtonIsDisabled);
-
-// function submitForm(event) {
-//   event.preventDefault();
-//   message.innerHTML = `<div class ="message"> Form has been filled successfully</div>`;
-//   form.reset();
-// }
 
 function formValidation() {
   event.preventDefault();

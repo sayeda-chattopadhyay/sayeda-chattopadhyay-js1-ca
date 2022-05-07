@@ -1,3 +1,3 @@
-function errorMessage(errorType = "error", message = "An error has occured") {
-  return `<div class="error ${errorType}">${message}</div>`;
+function errorMessage(message = "An error Occured") {
+  return `<div class="error">${message}</div>`;
 }
